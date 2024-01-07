@@ -104,6 +104,7 @@ main {
     max-width: 1140px;
     margin: 0 auto;
 }
+
 /* about section */
 .about {
     border-radius: 10px;
@@ -111,26 +112,31 @@ main {
     margin: 130px 0;
     padding: 130px 150px;
 }
+
 .section-title {
     color: #181818;
     text-align: center;
     font-size: 35px;
     font-weight: 700;
 }
+
 .section-des {
     color: #757575;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
 }
+
 .about-info-container {
     display: flex;
     justify-content: center;
     margin-top: 30px;
 }
+
 .about-info {
     margin-right: 50px;
 }
+
 .info-title {
     color: #757575;
     text-align: center;
@@ -138,15 +144,71 @@ main {
     font-weight: 400;
     margin-bottom: 15px;
 }
+
 .info-description {
     color: #474747;
     font-size: 20px;
     font-weight: 700;
     margin-top: 5px;
 }
+
 /* Skills section */
 .skills {
     display: flex;
     margin-top: 50px;
-    justify-content: space-around;
+    margin-right: 25px;
+    margin-bottom: 130px;
 }
+
+.skill-des {
+    padding: 30px;
+    margin-right: 25px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-title{
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+}
+.skill-info {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* Resume Section */
+.Resume {
+    display: flex;
+    gap: 25px;
+}
+.Des-heading {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.Des-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+.Des-ins {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 5px;
+}
+.Des-info {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+.download-cv {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+
+/* footer section */
