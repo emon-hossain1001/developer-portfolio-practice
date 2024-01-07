@@ -144,3 +144,9 @@ main {
     font-weight: 700;
     margin-top: 5px;
 }
+/* Skills section */
+.skills {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+}
